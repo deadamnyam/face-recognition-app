@@ -1,0 +1,43 @@
+# Виртуальное окружение
+face_recognition_env/
+venv/
+env/
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Базы данных и временные файлы
+*.db
+*.sqlite3
+*.tmp
+
+# Фотографии лиц (не коммитить чужие фото)
+known_faces/**
+
+# Настройки IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи
+*.log
